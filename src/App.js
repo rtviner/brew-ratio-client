@@ -17,7 +17,7 @@ import {
 } from './constants'
 import { stepDownValue, stepUpValue } from './utils'
 // import instructionsData from "./instructions.json";
-const DefaultInstructionsUrl = "/instructions";
+const DefaultInstructionsUrl = "https://brew-ratio.herokuapp.com/instructions";
 
 const App = () => { 
   const [cupSize, setCupSize] = useState(DefaultCupSize);
