@@ -2,7 +2,7 @@
 
 Brew ratio is a coffee calculator app to help you brew the perfect cup of AeroPress, French Press, or Pour Over coffee.  
 
-Choose your brew method and your preferred coffee to water ratio.  Then, put in the number of 8oz brewed coffee you would like or the amount of coffee or water you have available.  Finally, follow the brewing instructions to make your perfect cup of coffee.
+Choose your brew method and your preferred coffee strength.  Then, put in the number of 8oz brewed coffee you would like or the amount of coffee or water you have available.  Finally, follow the brewing instructions to make your perfect cup of coffee.
 
 Press "Save Settings" to save your perfect cup settings for next time.
 
@@ -16,7 +16,7 @@ In the project directory, you can run:
 ### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Installs all dependencies and runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
