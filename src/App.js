@@ -150,7 +150,6 @@ const App = () => {
     localStorage.setItem('waterGrams', waterGrams)
     localStorage.setItem('seconds', seconds)
   }
-  if (!instructions) {return null;}
   
   return (
     <div className="App">
@@ -183,12 +182,17 @@ const App = () => {
         >
           Save Settings
         </button>
-        <Instructions
-          grindSize={instructions['grindSize']}
-          list={instructions['steps'].split(".,")}
-          goldenRatio={goldenRatio}
-          waterGrams={waterGrams}
-        />
+
+        {instructions && 
+          <Instructions
+            grindSize={instructions['grindSize']}
+            list={instructions['steps'].split(".,")}
+            goldenRatio={goldenRatio}
+            waterGrams={waterGrams}
+          />
+        }
+
+
       </main>
     </div>
   )
