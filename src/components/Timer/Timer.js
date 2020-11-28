@@ -21,12 +21,12 @@ const Timer = ({seconds, stepTime, resetTimer, playPause}) => {
     <div id="countdown-timer">
       <div className="increment timer">
         <IncrementDecrementButton 
-          id="timer"
+          id="timer-increment"
           onClick={stepTime}
           text="+"
         />
         <IncrementDecrementButton 
-          id="timer"
+          id="timer-decrement"
           onClick={stepTime}
           text="-"
         />
